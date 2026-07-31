@@ -1,0 +1,17 @@
+# Never ship secrets or local state into the cloud build.
+.env
+service-account.json
+*.json.key
+.webhook-secret
+topic_names.json
+
+# Not needed to run the bot.
+.git/
+.gitignore
+.venv/
+tests/
+docs/
+scripts/
+__pycache__/
+*.pyc
+README.md

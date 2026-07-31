@@ -1,0 +1,18 @@
+# Credentials — never commit these
+.env
+service-account*.json
+*.key.json
+.webhook-secret
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Runtime state
+topic_names.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
