@@ -15,7 +15,7 @@ from bot.topics import GENERAL_TOPIC_ID, JsonTopicStore, TopicRegistry, sanitize
 
 logging.basicConfig(format="%(asctime)s %(levelname)s %(name)s: %(message)s", level=logging.INFO)
 logging.getLogger("httpx").setLevel(logging.WARNING)
-log = logging.getLogger("tradeshow-sales-bot")
+log = logging.getLogger("sales-capture")
 
 LOCAL_TZ = ZoneInfo("Asia/Singapore")
 TOPIC_CACHE_FILE = Path("topic_names.json")

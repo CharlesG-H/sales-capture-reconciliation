@@ -1,7 +1,7 @@
-# Tradeshow Sales Bot
+# Sales Capture & Reconciliation
 
-A Telegram → Google Sheets bot that turns free-text booth sales into a clean,
-reconcilable record. Sellers type a short caption at the table; the bot parses
+A Telegram → Google Sheets pipeline that turns free-text booth sales into a
+clean, reconcilable record. Sellers type a short caption at the table; the bot parses
 it and writes a structured row. **Anything it can't parse cleanly goes to a
 "Needs Review" tab — it never writes a guessed row.**
 
